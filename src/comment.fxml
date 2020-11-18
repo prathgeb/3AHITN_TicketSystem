@@ -8,6 +8,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Comment">
    <children>
+
       <TextField layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="576.0" promptText="Betreff" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
       <TextArea layoutX="14.0" layoutY="100.0" prefHeight="248.0" prefWidth="576.0" promptText="Ihr Kommentar" AnchorPane.bottomAnchor="52.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="100.0" />
       <TextField disable="true" editable="false" layoutX="14.0" layoutY="55.0" prefHeight="25.0" prefWidth="576.0" promptText="Zeitstempel" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="55.0" />
