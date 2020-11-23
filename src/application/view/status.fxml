@@ -5,10 +5,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="114.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Priority">
+
+<AnchorPane prefHeight="114.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="14.0" layoutY="23.0" text="Priorität" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="23.0" />
-      <TextField layoutX="66.0" layoutY="19.0" prefHeight="25.0" prefWidth="504.0" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="19.0" />
+      <Label layoutX="14.0" layoutY="23.0" text="Status" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="23.0" />
+      <TextField layoutX="51.0" layoutY="19.0" prefHeight="25.0" prefWidth="519.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="19.0" />
       <Button layoutX="501.0" layoutY="361.0" mnemonicParsing="false" text="Speichern" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
       <Button layoutX="413.0" layoutY="361.0" mnemonicParsing="false" text="Abbrechen" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="97.0" />
    </children>
