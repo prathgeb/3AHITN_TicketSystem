@@ -5,13 +5,14 @@ import javafx.event.ActionEvent;
 
 public class Controller {
 
-    public void editStati(ActionEvent actionEvent) {
+    public void editStatiClicked(ActionEvent actionEvent) {
         MyFXMLLoader loader = new MyFXMLLoader();
         loader.loadFXML("view/status.fxml", "Stati bearbeiten");
     }
 
-    public void editPriorities(ActionEvent actionEvent) {
+    public void editPrioritiesClicked(ActionEvent actionEvent) {
         MyFXMLLoader loader = new MyFXMLLoader();
         loader.loadFXML("view/priority.fxml", "Prioritäten bearbeiten");
     }
+
 }

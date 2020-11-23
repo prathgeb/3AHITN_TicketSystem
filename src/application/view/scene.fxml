@@ -5,7 +5,6 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.Controller">
    <children>
       <MenuBar layoutY="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -19,14 +18,14 @@
             <items>
                   <Menu mnemonicParsing="false" text="Stati">
                     <items>
-                      <MenuItem mnemonicParsing="false" onAction="#editStati" text="bearbeiten" />
+                      <MenuItem mnemonicParsing="false" onAction="#editStatiClicked" text="bearbeiten" />
                     </items>
                   </Menu>
-                <Menu mnemonicParsing="false" text="Prioritäten">
-                  <items>
-                    <MenuItem mnemonicParsing="false" onAction="#editPriorities" text="bearbeiten" />
-                  </items>
-                </Menu>
+                  <Menu mnemonicParsing="false" text="Prioritäten">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#editPrioritiesClicked" text="bearbeiten" />
+                    </items>
+                  </Menu>
             </items>
           </Menu>
         </menus>
